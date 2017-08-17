@@ -33,7 +33,7 @@ int main() {
             sensor.getTemperature(),
             sensor.getPressure(),
             sensor.getHumidity());
-        wait(1);
+        wait_ms(10);
     }
 }
 
